@@ -9,7 +9,7 @@ import com.sun.jersey.api.client.WebResource;
 public class RestClient {
 
 	Client client = Client.create();
-	String postUrl = "http://meli-test-mutant.appspot.com//mutant";
+	String postUrl = "http://meli-test-mutant.appspot.com/mutant";
 
 	public void postRequest(String inputData) throws JSONException {
 		WebResource webResource = client.resource(postUrl);
